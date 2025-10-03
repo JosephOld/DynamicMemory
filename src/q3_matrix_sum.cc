@@ -81,9 +81,9 @@ int main() {
   }
   InputArray(rows, cols, arr1);
   InputArray(rows1,cols1,arr2);
-  Sum(rows,cols,arr1,arr2,arrSum);
+  Sum(rows,cols,arr1,arr2, arrSum);
   PrintArray(rows, cols, arrSum);
-  FreeMatrix(arr1,rows);
-  FreeMatrix(arr2,rows);
-  FreeMatrix(arrSum,rows);
+  FreeMatrix(arr1, rows);
+  FreeMatrix(arr2, rows);
+  FreeMatrix(arrSum, rows);
 }
