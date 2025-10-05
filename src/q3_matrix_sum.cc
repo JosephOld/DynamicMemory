@@ -48,7 +48,7 @@ void PrintArray(int rows, int cols, int **arr) {
   }
 }
 // Функция для освобождения памяти двумерного массива
-void FreeMatrix(int** arr, int rows) {
+void FreeMatrix(int **arr, int rows) {
     for (int i = 0; i < rows; i++) {
         delete[] arr[i];
     }
@@ -86,4 +86,8 @@ int main() {
   FreeMatrix(arr1, rows);
   FreeMatrix(arr2, rows);
   FreeMatrix(arrSum, rows);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3639f115a5a0361a731db39d54a4cde8fc47bfc8
